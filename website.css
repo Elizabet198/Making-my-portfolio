@@ -197,8 +197,14 @@ header {
 }
 
 .image-of-me{
-  height: 400px;
-  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.About-Image-Disapere-Reapere2{
+  display: none;
 }
 
 .About-Me-Grid2{
@@ -226,8 +232,9 @@ header {
 }
 
 .image-of-me2{
-  height: 470px;
-  width: 600px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 }
 
 .About-Me-Grid3{
