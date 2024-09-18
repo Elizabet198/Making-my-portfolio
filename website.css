@@ -192,6 +192,10 @@ header {
 
 }
 
+.About-Me-Grid-Disapere-Reapere{
+  display: none;
+}
+
 .image-of-me{
   height: 400px;
   width: 320px;

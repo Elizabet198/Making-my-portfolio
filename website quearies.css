@@ -1,11 +1,44 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media (max-width: 600px) {
-    .home h1 {
-        font-size: 48px;
+@media (max-width: 1500px) {
+    .Disapere{
+        display: none;
+    }
+    .About-Me-Grid2{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .About-Me-Grid-Disapere-Reapere{
+        display: block;
+        padding-bottom: 20px;
     }
 }
+
+@media (max-width: 1300px) {
+    .About-me{
+    padding:  0 150px 0 150px;
+    }
+
+    .image-of-me2{
+        height: 300px;
+        width: 300px;
+    }
+
+    .About-Me-Grid3{
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .About-me{
+        padding:  0 80px 0 80px;
+        }
+}
+
+
 
 @media (max-width: 700px) {
     .nav-container .logo {
@@ -32,7 +65,7 @@
     }
 
     .header {
-        color: blueviolet;
+        color: #020711;
         position: fixed; /* Changed from relative to fixed */
         top: 0; /* Ensure it sticks to the top */
         width: 100%; /* Ensure it spans the full width */
@@ -70,7 +103,25 @@
         font-size: 13px;
     }
 
+    .image-of-me{
+        height: 100px;
+        width: 120px;
+      }
+
+      .image-of-me2{
+        height: 100px;
+        width: 120px;
+      }
 }
+
+
+
+@media (max-width: 600px) {
+    .home h1 {
+        font-size: 48px;
+    }
+}
+
 
 @media (max-width: 420px) {
     .home h1 {
