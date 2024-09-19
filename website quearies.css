@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 @media (max-width: 1500px) {
     .Disapere{
         display: none;
@@ -43,9 +44,22 @@
     .Image-Grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
+        gap: 30px;
     }
 }
+
+@media (max-width: 1100px) {
+    .About-Me-Grid{
+        grid: none;
+    }
+
+    .image-of-me{
+        width: 95%;
+        height: 95%;
+        margin-right: 0;
+    }
+}
+
 
 @media (max-width: 1000px) {
 
@@ -54,6 +68,12 @@
         }
 }
 
+@media (max-width: 850px) {
+    .About-Me-Grid2{
+        grid-template-columns: 1fr;
+
+    }
+}
 
 
 @media (max-width: 700px) {
@@ -116,7 +136,7 @@
         padding: 30px;
     }
     .About-Me-Text{
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
