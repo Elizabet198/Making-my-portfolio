@@ -2,6 +2,7 @@
 /* CSS Document */
 
 
+
 @media (max-width: 1500px) {
     .Disapere{
         display: none;
@@ -54,8 +55,8 @@
     }
 
     .image-of-me{
-        width: 95%;
-        height: 95%;
+        width: 85%;
+        height: 85%;
         margin-right: 0;
     }
 }
@@ -137,6 +138,11 @@
     }
     .About-Me-Text{
         font-size: 16px;
+    }
+
+    .image-of-me{
+        width: 95%;
+        height: 95%;
     }
 }
 
