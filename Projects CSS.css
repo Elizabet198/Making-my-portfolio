@@ -165,18 +165,19 @@ header {
   z-index: -1;
 }
 
-/*About Me*/
-.About-me{
+/*Projects*/
+
+.Projects{
   padding: 100px 200px;
 }
 
-.About-Me-Grid{
+.Projects-Grid{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.About-Me-Header{
+.Projects-Header{
   font-size: 35px;
   text-align: center;
   padding-bottom: 30px;
@@ -184,64 +185,19 @@ header {
   text-shadow: 0 0 5px #FEFEFE;
 }
 
-.About-Me-Text{
-  font-size: 20px;
+.Projects-Text{
   color: #020711;
   text-shadow: 0 0 5px #FEFEFE;
   font-weight:900;
-
-}
-
-.image-of-me{
-  height: 400px;
-  width: 320px;
-}
-
-.About-Me-Grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.About-Me-Header2{
-  font-size: 35px;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  color: #020711;
-  text-shadow: 0 0 5px #FEFEFE;
+  padding-bottom: 20px;
 }
 
-.style-hr{
-  background-color: #020711;
-  border: 0pt none;
-  color: #020711;
-  height: 1px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.image-of-me2{
-  height: 470px;
-  width: 600px;
-}
-
-.About-Me-Grid3{
-  display: grid;
-  grid-template-columns: 1fr 1.3fr;
-  gap: 30px;
-}
-
-.Socials{
-  text-align: center;
-  text-shadow: 0 0 5px #FEFEFE;
-
-}
-
-.ion-icon {
-  color: #020711;
-  height: 50px;
-  width: 50px;
-  text-align: center;
+.image-of-projects{
+  height: 90%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
