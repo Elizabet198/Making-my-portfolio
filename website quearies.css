@@ -73,6 +73,12 @@
         grid-template-columns: 1fr;
 
     }
+
+    .Image-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
 
 
