@@ -1,6 +1,21 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+@media (max-width: 1450px) {
+    .website-grid {
+        grid-template-columns: 1fr;
+        gap: 150px
+      }
+      .section-websites {
+        padding: 200px 300px;
+      }
+
+}
+
+
+
+
 @media (max-width: 700px) {
     .nav-container .logo {
         font-size: 20px;

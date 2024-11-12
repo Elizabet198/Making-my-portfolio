@@ -220,7 +220,7 @@ header {
 
 
 .website{
-	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.075);
+	box-shadow: 0 28px 60px rgba(0, 0, 0, 0.17);
 	border-radius: 11px;
 	overflow: hidden;
 	transition: all 0.4s;
@@ -228,12 +228,12 @@ header {
 
 .website:hover{
 	transform: translateY(-1.2px);
-	box-shadow: 0 10px 17px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.09);
 }
 
 .website-content{
 	padding: 10px;
-  background-color: #e496d9;
+  background-color: #f7f7f7;
 }
 
 .website-tags{
@@ -245,7 +245,7 @@ header {
 	padding: 9px 8px;
 	font-size: 16px;
 	text-transform: uppercase;
-	background-color: #C7B5FD;
+	background-color: #fff;
 	color: #000000;
 	border-radius: 100px;
 	font-weight: 700;
