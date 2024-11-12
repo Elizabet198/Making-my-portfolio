@@ -167,4 +167,52 @@ header {
   z-index: -1;
 }
 
-/*About Me*/
+
+
+/*Hobbys*/
+
+.Hobby-Text{
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.Hobbys{
+  padding: 40px 200px
+}
+
+.Hobby-Img{
+  width: 90%;
+  height: auto;
+}
+/*Cooking Hobby*/
+
+.Hobbys-Grid1{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+}
+
+/*Baking Hobby*/
+
+.Hobbys-Grid2{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+}
+
+/*Photography Hobby*/
+
+.Hobbys-Grid3{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+}
+
+/*Gardening Hobby*/
+
+.Hobbys-Grid4{
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 20px;
+}
