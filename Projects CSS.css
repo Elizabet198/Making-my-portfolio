@@ -178,7 +178,7 @@ header {
 }
 
 .Projects-Header{
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   padding-bottom: 30px;
   color: #020711;
@@ -191,6 +191,7 @@ header {
   font-weight:900;
   text-align: center;
   padding-bottom: 20px;
+  font-size: 26px;
 }
 
 .image-of-projects{
@@ -201,3 +202,85 @@ header {
   margin-right: auto;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.section-websites {
+  padding: 100px 200px;
+}
+
+
+.website{
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.075);
+	border-radius: 11px;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+
+.website:hover{
+	transform: translateY(-1.2px);
+	box-shadow: 0 10px 17px rgba(0, 0, 0, 0.07);
+}
+
+.website-content{
+	padding: 10px;
+  background-color: #e496d9;
+}
+
+.website-tags{
+	margin-bottom: 12px;
+}
+
+.tag{
+	display: inline-block;
+	padding: 9px 8px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #C7B5FD;
+	color: #000000;
+	border-radius: 100px;
+	font-weight: 700;
+}
+
+.website-title{
+	font-size: 40px;
+	color: #222;
+	margin-bottom: 40px;
+  font-weight: 700;
+
+}
+
+.website-attributes{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.website-attribute{
+	font-size: 1.8px;
+	display: flex;
+	align-items: center;
+	gap: 1.6px;
+}
+
+.website-img{
+	width: 100%;
+}
+
+.website-grid {
+  display: grid;
+	column-gap: 6.4px;
+	gap: 70px;
+	margin-bottom: 10px;
+  grid-template-columns: repeat(2, 1fr);
+}
