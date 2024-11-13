@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body {
-  animation: slide 60s linear infinite alternate;
-  background-image: url("https://st2.depositphotos.com/3892937/7377/v/450/depositphotos_73776351-stock-illustration-seamless-pattern-flowers-and-butterflies.jpg");
+  animation: slide 50s linear infinite alternate;
+  background-image: url("https://img.freepik.com/premium-photo/seamless-floral-pattern-with-pink-flowers-leaves-white-background-generative-ai_1034059-20759.jpg");
   background-repeat: repeat;
 }
 
@@ -23,6 +23,10 @@ body, html, .home {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'PT Serif';
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .grid--2-cols {
@@ -120,7 +124,7 @@ header {
   text-align: center;
   background-color: #fff;
   transition: 0.15s ease-in-out;
-  padding-bottom: 150px;
+  padding-bottom: 170px;
 }
 
 .nav.active {
@@ -139,7 +143,6 @@ header {
   overflow: hidden;
   touch-action: pan-up;
   color: #020711;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 7px #FEFEFE;
   display: flex;
   justify-content: center;

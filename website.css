@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  animation: slide 60s linear infinite alternate;
+  animation: slide 50s linear infinite alternate;
   background-image: url("https://img.freepik.com/premium-vector/camomile-blue-background-pattern-cute-seamless-print-naive-style-children-s-textiles-wallpapers-postcards-vector-illustration-hand-drawn-doodle_501610-191.jpg");
   background-repeat: repeat;
 }
@@ -23,6 +23,10 @@ body, html, .home {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'PT Serif';
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .grid--2-cols {
@@ -120,7 +124,7 @@ header {
   text-align: center;
   background-color: #fff;
   transition: 0.15s ease-in-out;
-  padding-bottom: 150px;
+  padding-bottom: 170px;
 }
 
 .nav.active {
@@ -139,7 +143,6 @@ header {
   overflow: hidden;
   touch-action: pan-up;
   color: #020711;
-  font-family: 'Montserrat', sans-serif;
   text-shadow: 0 0 7px #FEFEFE;
   display: flex;
   justify-content: center;
