@@ -60,20 +60,20 @@
     }
 }
 
+@media (max-width: 1100px) {
+    .About-Me-Grid2{
+        grid-template-columns: 1fr;
+
+    }
+}
 
 @media (max-width: 1000px) {
-
     .About-me{
         padding:  0 80px 0 80px;
         }
 }
 
 @media (max-width: 850px) {
-    .About-Me-Grid2{
-        grid-template-columns: 1fr;
-
-    }
-
     .Image-Grid{
         display: grid;
         grid-template-columns: 1fr;

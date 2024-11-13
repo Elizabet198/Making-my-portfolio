@@ -8,15 +8,70 @@
         gap: 150px
       }
       .section-websites {
-        padding: 200px 300px;
+             padding: 100px 200px;
       }
-
 }
 
+@media (max-width: 1350px) {
+
+    .section-websites {
+        padding: 100px 200px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .Projects {
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .section-websites {
+        padding: 80px 100px;
+    }
+
+    .website-grid {
+        gap: 100px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .website-grid {
+            gap: 50px;
+        }
+
+        .Projects {
+            padding: 50px 50px;
+        }
+
+    }
 
 
-
+        
 @media (max-width: 700px) {
+
+    .Projects {
+        padding: 50px 70px;
+    }
+
+    .Projects-Grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+}
+    .tag {
+        font-size: 13px;
+    }
+
+    .website-title {
+        font-size: 30px;
+
+    }
+
+    .section-websites {
+        padding: 20px 60px;
+    }
+
     .nav-container .logo {
         font-size: 20px;
         z-index: 2;   
@@ -76,6 +131,20 @@
 @media (max-width: 600px) {
     .home h1 {
         font-size: 48px;
+    }
+    .section-websites {
+        padding: 10px 20px;
+      }
+
+      .Projects-Text {
+        padding-top: 20px;
+      }
+
+}
+
+@media (max-width: 500px) {
+    .Projects {
+        padding: 50px 20px;
     }
 }
 
