@@ -170,14 +170,19 @@ header {
   z-index: -1;
 }
 
+/*General*/
 
+.xtra-padding{
+  padding-top: 200px;
+}
 
 /*Hobbys*/
 
 .Hobby-Text{
   font-size: 40px;
   text-align: center;
-  padding: 20px;
+  padding-bottom: 20px;
+
 }
 
 .Hobbys{

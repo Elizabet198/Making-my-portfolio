@@ -205,17 +205,7 @@ header {
   margin-right: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*Websites*/
 
 .section-websites {
   padding: 100px 200px;
@@ -230,7 +220,7 @@ header {
 }
 
 .website:hover{
-	transform: translateY(-1.2px);
+	transform: translateY(-4px);
 	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.09);
 }
 

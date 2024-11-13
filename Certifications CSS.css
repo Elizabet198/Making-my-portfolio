@@ -167,3 +167,31 @@ header {
   height: 100%;
   z-index: -1;
 }
+
+/*Certifications*/
+
+.certificate-section{
+  padding: 100px 150px;
+}
+
+.certificate-grid{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+.certificate-img{
+  padding-bottom: 90px;
+}
+
+.img{
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.img:hover {
+  transform: translateY(-2px);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.09);
+  overflow: hidden;
+	transition: all 0.4s;
+}
