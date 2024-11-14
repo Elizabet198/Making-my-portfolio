@@ -36,11 +36,13 @@ body, html, .home {
 
 /* navigation*/
 header {
-  background: #ffffff;
+  /* background: #ffffff; */
   color: black;
   padding: 20px 0;
   position: fixed; 
   width: 100%; 
+  background-color: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(10px);
 }
 
 .nav-container {
@@ -136,6 +138,7 @@ header {
   color: #020711;
   border-style: none none solid none;
   border-width: thin;
+
 }
 
 /*home*/

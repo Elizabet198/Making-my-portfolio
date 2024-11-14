@@ -80,6 +80,9 @@
     .home h1 {
         font-size: 48px;
     }
+    .certificate-img{
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -87,4 +90,8 @@
     .home h1 {
         font-size: 36px;
     }
+    .certificate-img{
+        padding-bottom: 20px;
+    }
+
 }

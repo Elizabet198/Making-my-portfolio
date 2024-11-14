@@ -38,11 +38,12 @@ body, html, .home {
 
 /* navigation*/
 header {
-  background: #ffffff;
   color: black;
   padding: 20px 0;
   position: fixed; /* Changed from relative to fixed */
   width: 100%; /* Ensure the header spans the full width */
+  background-color: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(10px);
 }
 
 .nav-container {
@@ -188,6 +189,10 @@ header {
 
 .Hobbys{
   padding: 40px 200px
+}
+
+.Hobbys-img-box{
+  text-align: center;
 }
 
 .Hobby-Img{
