@@ -14,9 +14,16 @@
 }
 
 @media (max-width: 1100px) {
-    .Hobbys-Grid1, .Hobbys-Grid2, .Hobbys-Grid3, .Hobbys-Grid4{
-        grid-template-columns: 1fr 1fr;
+    .image-container {
+        height: 500px;
+        width: 600px;
     }
+}
+
+@media (max-width: 900px) {
+.xtra-padding{
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -27,11 +34,6 @@
 
 
 @media (max-width: 700px) {
-
-    .Hobbys-Grid1, .Hobbys-Grid2, .Hobbys-Grid3, .Hobbys-Grid4{
-        grid-template-columns: 1fr;
-    }
-
     .nav-container .logo {
         font-size: 20px;
         z-index: 2;   
@@ -94,6 +96,14 @@
         font-size: 13px;
     }
 
+    .image-container {
+        height: 300px;
+        width: 400px;
+    }
+
+    .xtra-padding{
+        padding-top: 50px;
+      }
 }
 
 
@@ -103,7 +113,18 @@
     }
 }
 
+@media (max-width: 480px) {
 
+    .image-container {
+        height: 200px;
+        width: 300px;
+    }
+
+    .xtra-padding{
+        padding-top: 80px;
+      }
+
+}
 
 @media (max-width: 420px) {
     .home h1 {
