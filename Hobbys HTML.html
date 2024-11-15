@@ -80,41 +80,51 @@
     <img src="img/images.png" alt="Image 4">
   </div>
 </section>
-  <script>
-    document.querySelectorAll('.image-container').forEach(container => {
-      const images = container.querySelectorAll('img');
-      let activeIndex = 0;
-  
-      function setActiveImage(index) {
-        images.forEach((img, i) => {
-          img.classList.remove('active', 'hovered');
-          if (i === index) {
-            img.classList.add('active');
-          }
-        });
-      }
-  
-      container.addEventListener('wheel', (e) => {
-        e.preventDefault();
-        if (e.deltaY > 0) {
-          activeIndex = (activeIndex + 1) % images.length;
-        } else {
-          activeIndex = (activeIndex - 1 + images.length) % images.length;
+<script>
+  document.querySelectorAll('.image-container').forEach(container => {
+    const images = container.querySelectorAll('img');
+    let activeIndex = 0;
+
+    function setActiveImage(index) {
+      images.forEach((img, i) => {
+        img.classList.remove('active', 'hovered');
+        if (i === index) {
+          img.classList.add('active');
         }
-        setActiveImage(activeIndex);
       });
-  
-      container.addEventListener('mouseover', () => {
-        images[activeIndex].classList.add('hovered');
-      });
-  
-      container.addEventListener('mouseout', () => {
-        images.forEach(img => img.classList.remove('hovered'));
-      });
-  
+    }
+
+    // Handle scroll events
+    container.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      if (e.deltaY > 0) {
+        activeIndex = (activeIndex + 1) % images.length;
+      } else {
+        activeIndex = (activeIndex - 1 + images.length) % images.length;
+      }
       setActiveImage(activeIndex);
     });
-  </script>
+
+    // Handle hover effect
+    container.addEventListener('mouseover', () => {
+      images[activeIndex].classList.add('hovered');
+    });
+
+    container.addEventListener('mouseout', () => {
+      images.forEach(img => img.classList.remove('hovered'));
+    });
+
+    // Handle click events
+    container.addEventListener('click', () => {
+      activeIndex = (activeIndex + 1) % images.length;
+      setActiveImage(activeIndex);
+    });
+
+    // Initialize the first image as active
+    setActiveImage(activeIndex);
+  });
+</script>
+
   
 </body>
 </html>
