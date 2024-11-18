@@ -201,7 +201,7 @@ header {
 .image-container {
   position: relative;
   width: 800px;
-  height: 700px;
+  height: 1000px;
   overflow: hidden;
   border: 2px solid #ccc;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -214,10 +214,10 @@ header {
   height: 100%;
   top: 0;
   left: 0;
+  object-fit: cover; /* Preserve aspect ratio and fill the container */
   transition: transform 0.3s, opacity 0.3s, z-index 0s 0.3s;
   z-index: 0;
   opacity: 0;
-  border-radius: 20px;
 }
 
 .image-container img.active {
