@@ -279,6 +279,7 @@ height: auto;
 .Socials{
   text-align: center;
   text-shadow: 0 0 5px #FEFEFE;
+  padding-bottom: 50px;
 
 }
 
@@ -287,5 +288,6 @@ height: auto;
   height: 50px;
   width: 50px;
   text-align: center;
+  padding: 5px;
 }
 

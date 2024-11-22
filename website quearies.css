@@ -81,6 +81,16 @@
     }
 }
 
+@media (max-width: 850px) {
+    .information-section {
+        padding: 100px 50px;
+    }
+    .information {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+}
 
 @media (max-width: 700px) {
     .nav-container .logo {
