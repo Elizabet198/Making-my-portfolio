@@ -105,6 +105,102 @@
     </div>
 </section>
 
+<section class="Hobbys">
+  <h3 class="Hobby-Text">Blender</h3>
+  <div class="">
+  <div class="image-container website-grid" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+
+  <h3 class="Hobby-Text">DHCP server</h3>
+  <div class="image-container" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+
+  <h3 class="Hobby-Text">Domain Setup</h3>
+  <div class="image-container" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+
+  <h3 class="Hobby-Text">Eathernet Cable</h3>
+  <div class="image-container" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+
+  <h3 class="Hobby-Text">Live OS's</h3>
+  <div class="image-container" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+
+  <h3 class="Hobby-Text">Virtual Machines</h3>
+  <div class="image-container" data-container="1">
+    <img src="img/istockphoto-1316947194-612x612.jpg" alt="Image 1">
+    <img src="img/blank-profile-picture-973460_960_720.jpg" alt="Image 2">
+    <img src="img/istockphoto-517998264-612x612.jpg" alt="Image 3">
+    <img src="img/images.png" alt="Image 4">
+  </div>
+</div>
+</section>
+<script>
+  document.querySelectorAll('.image-container').forEach(container => {
+    const images = container.querySelectorAll('img');
+    let activeIndex = 0;
+
+    function setActiveImage(index) {
+      images.forEach((img, i) => {
+        img.classList.remove('active', 'hovered');
+        if (i === index) {
+          img.classList.add('active');
+        }
+      });
+    }
+
+    // Handle scroll events
+    container.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      if (e.deltaY > 0) {
+        activeIndex = (activeIndex + 1) % images.length;
+      } else {
+        activeIndex = (activeIndex - 1 + images.length) % images.length;
+      }
+      setActiveImage(activeIndex);
+    });
+
+    // Handle hover effect
+    container.addEventListener('mouseover', () => {
+      images[activeIndex].classList.add('hovered');
+    });
+
+    container.addEventListener('mouseout', () => {
+      images.forEach(img => img.classList.remove('hovered'));
+    });
+
+    // Handle click events
+    container.addEventListener('click', () => {
+      activeIndex = (activeIndex + 1) % images.length;
+      setActiveImage(activeIndex);
+    });
+
+    // Initialize the first image as active
+    setActiveImage(activeIndex);
+  });
+</script>
+
 
 </body>
 </html>
