@@ -337,3 +337,11 @@ header {
   transform: scale(1.1);
 
 }
+
+.disapear-appear1{
+  display: block;
+}
+
+.disapear-appear2{
+  display: none;
+}
