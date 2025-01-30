@@ -171,16 +171,19 @@ header {
   z-index: -1;
 }
 
+
 /*Projects*/
 
 .Projects{
-  padding: 100px 200px;
+  padding: 100px 10px;
 }
 
 .Projects-Grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+	column-gap: 6.4px;
+	gap: 6px;
+	margin-bottom: 5px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .Projects-Header{
@@ -206,9 +209,18 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: all 0.4s;
+  border-radius: 2%;
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.04);
+  border: 2px solid black;
 }
 
-/*Websites*/
+.image-of-projects:hover{
+  transform: translateY(-6px);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.17);
+}
+
+/*Websites
 
 .section-websites {
   padding: 100px 200px;
@@ -282,7 +294,7 @@ header {
 }
 
 
-/*Hobbys*/
+/*Hobbys
 
 .Hobbys{
   padding: 40px 200px
@@ -297,20 +309,20 @@ header {
 
 .website-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid columns */
-  gap: 20px; /* Space between grid items */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 20px; 
   padding: 20px;
   justify-items: center;
 }
 
-/*scrolling*/
+/*scrolling
 .image-container {
   position: relative;
   height: 800px;
   width: 100%;
   overflow: hidden;
   /* border: 2px solid #ccc;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   border-radius: 20px;
 }
 
@@ -319,7 +331,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  object-fit: contain; /* Preserve aspect ratio and fill the container */
+  object-fit: contain;  
   transition: transform 0.3s, opacity 0.3s, z-index 0s 0.3s;
   z-index: 0;
   opacity: 0;
@@ -344,4 +356,4 @@ header {
 
 .disapear-appear2{
   display: none;
-}
+} */
