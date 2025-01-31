@@ -4,7 +4,7 @@
 
 body {
     animation: slide 50s linear infinite alternate;
-    background-image: url("https://img.freepik.com/premium-vector/camomile-blue-background-pattern-cute-seamless-print-naive-style-children-s-textiles-wallpapers-postcards-vector-illustration-hand-drawn-doodle_501610-191.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/043/032/047/small_2x/watercolor-seamless-floral-pattern-illustration-horizontally-and-vertically-repeatable-free-vector.jpg");
     background-repeat: repeat;
   }
   
@@ -137,4 +137,30 @@ body {
     border-width: thin;
   
   }
+
+  /*Blender*/
+  .Blender{
+    padding: 100px 100px;
+  }
   
+  .Blender-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .blender-img{
+    height: 100%;
+    width: 100%;
+    transition: all .4s;
+    border-radius: 5%;
+  }
+
+  .blender-img:hover{
+    transform: translateY(-6px);
+    box-shadow: #020711;
+  }
+
+  .Blender-text{
+    padding-top: 30px;
+  }
