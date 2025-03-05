@@ -1,5 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
+
+@media (max-width: 1300px) {
+    .DHCP-grid{
+        grid: none;
+    }
+}
+
 @media (max-width: 700px) {
     .nav-container .logo {
         font-size: 20px;
@@ -55,4 +62,6 @@
         border-style: none none solid none;
         border-width: thin;
     }
+
+   
 }
