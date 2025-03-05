@@ -2,132 +2,129 @@
 /* CSS Document */
 
 @media (max-width: 1530px) {
-    .Hobbys{
-        padding: 40px 100px
-    }
+  .Hobbys {
+    padding: 40px 100px;
+  }
 }
 
 @media (max-width: 1330px) {
-    .Hobbys{
-        padding: 40px 50px
-    }
+  .Hobbys {
+    padding: 40px 50px;
+  }
 }
 
 @media (max-width: 1100px) {
-    .image-container {
-        height: 700px;
-        width: 600px;
-    }
+  .image-container {
+    height: 700px;
+    width: 600px;
+  }
 }
 
 @media (max-width: 900px) {
-.xtra-padding{
+  .xtra-padding {
     padding-top: 100px;
   }
 }
 
 @media (max-width: 750px) {
-    .Hobbys{
-        padding: 40px 30px
-    }
+  .Hobbys {
+    padding: 40px 30px;
+  }
 }
-
 
 @media (max-width: 700px) {
-    .nav-container .logo {
-        font-size: 20px;
-        z-index: 2;   
-    }
+  .nav-container .logo {
+    font-size: 20px;
+    z-index: 2;
+  }
 
-    .home canvas {
-        height: 50%;
-    }
+  .home canvas {
+    height: 50%;
+  }
 
-    .hamburger-menu, .material-symbols-outlined {
-        font-size: 20px;
-    }
+  .hamburger-menu,
+  .material-symbols-outlined {
+    font-size: 20px;
+  }
 
-    .nav-ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .nav-ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .hamburger-menu {
-        display: block;
-        z-index: 2;
-    }
+  .hamburger-menu {
+    display: block;
+    z-index: 2;
+  }
 
-    .header {
-        color: #020711;
-        position: fixed; 
-        top: 0; 
-        width: 100%; 
-        z-index: 1000;
-    }
+  .header {
+    color: #020711;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
 
-    .nav {
-        flex-direction: column;
-        gap: 2rem;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        bottom: 0;
-        width: 100%;
-        padding-top: 6rem;
-        align-items: center;
-        text-align: center;
-        transition: 0.15s ease-in-out;
-        padding-bottom: 1000px;
-    }
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 100%;
+    padding-top: 6rem;
+    align-items: center;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    padding-bottom: 1000px;
+  }
 
-    .nav.active {
-        right: 0;
-    }
+  .nav.active {
+    right: 0;
+  }
 
-    .nav.active a {
-        border-style: none none solid none;
-        border-width: thin;
-    }
+  .nav.active a {
+    border-style: none none solid none;
+    border-width: thin;
+  }
 
-    .About-me{
-        padding: 30px;
-    }
-    .About-Me-Text{
-        font-size: 13px;
-    }
+  .About-me {
+    padding: 30px;
+  }
+  .About-Me-Text {
+    font-size: 13px;
+  }
 
-    .image-container {
-        height: 500px;
-        width: 400px;
-    }
+  .image-container {
+    height: 500px;
+    width: 400px;
+  }
 
-    .xtra-padding{
-        padding-top: 50px;
-      }
+  .xtra-padding {
+    padding-top: 50px;
+  }
 }
 
-
 @media (max-width: 600px) {
-    .home h1 {
-        font-size: 48px;
-    }
+  .home h1 {
+    font-size: 48px;
+  }
 }
 
 @media (max-width: 480px) {
+  .image-container {
+    height: 500px;
+    width: 300px;
+  }
 
-    .image-container {
-        height: 500px;
-        width: 300px;
-    }
-
-    .xtra-padding{
-        padding-top: 80px;
-      }
-
+  .xtra-padding {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 420px) {
-    .home h1 {
-        font-size: 36px;
-    }
+  .home h1 {
+    font-size: 36px;
+  }
 }

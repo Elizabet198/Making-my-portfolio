@@ -2,58 +2,59 @@
 /* CSS Document */
 
 @media (max-width: 700px) {
-    .nav-container .logo {
-        font-size: 20px;
-        z-index: 2;   
-    }
+  .nav-container .logo {
+    font-size: 20px;
+    z-index: 2;
+  }
 
-    .home canvas {
-        height: 50%;
-    }
+  .home canvas {
+    height: 50%;
+  }
 
-    .hamburger-menu, .material-symbols-outlined {
-        font-size: 20px;
-    }
+  .hamburger-menu,
+  .material-symbols-outlined {
+    font-size: 20px;
+  }
 
-    .nav-ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .nav-ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .hamburger-menu {
-        display: block;
-        z-index: 2;
-    }
+  .hamburger-menu {
+    display: block;
+    z-index: 2;
+  }
 
-    .header {
-        color: #020711;
-        position: fixed; /* Changed from relative to fixed */
-        top: 0; /* Ensure it sticks to the top */
-        width: 100%; /* Ensure it spans the full width */
-        z-index: 1000; /* Ensure it stays on top of other content */
-    }
+  .header {
+    color: #020711;
+    position: fixed; /* Changed from relative to fixed */
+    top: 0; /* Ensure it sticks to the top */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
 
-    .nav {
-        flex-direction: column;
-        gap: 2rem;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        bottom: 0;
-        width: 100%;
-        padding-top: 6rem;
-        align-items: center;
-        text-align: center;
-        transition: 0.15s ease-in-out;
-        padding-bottom: 1000px;
-    }
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 100%;
+    padding-top: 6rem;
+    align-items: center;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    padding-bottom: 1000px;
+  }
 
-    .nav.active {
-        right: 0;
-    }
+  .nav.active {
+    right: 0;
+  }
 
-    .nav.active a {
-        border-style: none none solid none;
-        border-width: thin;
-    }
+  .nav.active a {
+    border-style: none none solid none;
+    border-width: thin;
+  }
 }

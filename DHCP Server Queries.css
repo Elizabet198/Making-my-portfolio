@@ -63,5 +63,7 @@
         border-width: thin;
     }
 
-   
+    .DHCP{
+        padding: 50px 50px;
+    }
 }

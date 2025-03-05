@@ -13,7 +13,9 @@ body {
   }
 }
 
-body, html, .home {
+body,
+html,
+.home {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -24,7 +26,7 @@ body, html, .home {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'PT Serif';
+  font-family: "PT Serif";
   letter-spacing: 1.2px;
   line-height: 1.5;
   font-weight: 700;
@@ -39,9 +41,9 @@ header {
   /* background: #ffffff; */
   color: black;
   padding: 20px 0;
-  position: fixed; 
-  width: 100%; 
-  background-color: rgba(255, 255, 255, 0.90);
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
 }
 
@@ -54,15 +56,15 @@ header {
 }
 
 .nav-container .logo {
-  font-size: 2rem; 
-  font-weight: bold;  
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .nav {
   display: flex;
 }
 
-.nav-link a{
+.nav-link a {
   text-decoration: none;
   color: #020711;
 }
@@ -72,7 +74,8 @@ header {
   list-style: none;
 }
 
-.nav-container, .nav-ul {
+.nav-container,
+.nav-ul {
   display: flex;
   gap: 1.6rem;
   font-size: 1.2rem;
@@ -85,14 +88,15 @@ header {
 
 .nav-container .logo {
   font-size: 20px;
-  z-index: 2;   
+  z-index: 2;
 }
 
 .home canvas {
   height: 50%;
 }
 
-.hamburger-menu, .material-symbols-outlined {
+.hamburger-menu,
+.material-symbols-outlined {
   font-size: 20px;
 }
 
@@ -134,11 +138,10 @@ header {
   right: 0;
 }
 
-.nav.active a{
+.nav.active a {
   color: #020711;
   border-style: none none solid none;
   border-width: thin;
-
 }
 
 /*home*/
@@ -147,7 +150,7 @@ header {
   overflow: hidden;
   touch-action: pan-up;
   color: #020711;
-  text-shadow: 0 0 7px #FEFEFE;
+  text-shadow: 0 0 7px #fefefe;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,65 +175,63 @@ header {
   z-index: -1;
 }
 
-
 /*About Me*/
-.About-me{
+.About-me {
   padding: 100px 200px;
 }
 
-.About-Me-Grid{
+.About-Me-Grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 20px;
 }
 
-.About-Me-Header{
+.About-Me-Header {
   font-size: 35px;
   text-align: center;
   padding-bottom: 30px;
   color: #020711;
-  text-shadow: 0 0 5px #FEFEFE;
+  text-shadow: 0 0 5px #fefefe;
 }
 
-.About-Me-Text{
+.About-Me-Text {
   font-size: 23px;
   color: #020711;
-  text-shadow: 0 0 5px #FEFEFE;
+  text-shadow: 0 0 5px #fefefe;
   font-weight: 900;
-
 }
 
-.About-Me-Grid-Disapere-Reapere{
+.About-Me-Grid-Disapere-Reapere {
   display: none;
 }
 
-.image-of-me{
+.image-of-me {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   height: auto;
 }
 
-.About-Image-Disapere-Reapere2{
+.About-Image-Disapere-Reapere2 {
   display: none;
 }
 
-.About-Me-Grid2{
+.About-Me-Grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
 
-.About-Me-Header2{
+.About-Me-Header2 {
   font-size: 35px;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
   color: #020711;
-  text-shadow: 0 0 5px #FEFEFE;
+  text-shadow: 0 0 5px #fefefe;
 }
 
-.style-hr{
+.style-hr {
   background-color: #020711;
   border: 0pt none;
   color: #020711;
@@ -239,14 +240,14 @@ header {
   text-align: center;
 }
 
-.image-of-me2{
-margin-left: auto;
-margin-right: auto;
-width: 90%;
-height: auto;
+.image-of-me2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
 }
 
-.About-Me-Grid3{
+.About-Me-Grid3 {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   gap: 30px;
@@ -254,33 +255,30 @@ height: auto;
 
 /*Resume*/
 
-.information-section{
+.information-section {
   padding: 100px 200px;
 }
 
-.information{
+.information {
   color: #020711;
   display: grid;
   text-align: center;
   font-size: 30px;
   padding-bottom: 50px;
-  }
-  
-  .information:hover{
-    transform: translateY(-10px);
-    transition: all .4s;
-    color: #3a3a3b;
-    }
+}
 
+.information:hover {
+  transform: translateY(-10px);
+  transition: all 0.4s;
+  color: #3a3a3b;
+}
 
-  
 /*Socials*/
 
-.Socials{
+.Socials {
   text-align: center;
-  text-shadow: 0 0 5px #FEFEFE;
+  text-shadow: 0 0 5px #fefefe;
   padding-bottom: 50px;
-
 }
 
 .ion-icon {
@@ -290,4 +288,3 @@ height: auto;
   text-align: center;
   padding: 5px;
 }
-

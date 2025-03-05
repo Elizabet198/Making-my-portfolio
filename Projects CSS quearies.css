@@ -1,191 +1,179 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @media (max-width: 1450px) {
-    .website-grid {
-        grid-template-columns: 1fr;
-        gap: 150px
-      }
-      .section-websites {
-             padding: 100px 200px;
-      }
+  .website-grid {
+    grid-template-columns: 1fr;
+    gap: 150px;
+  }
+  .section-websites {
+    padding: 100px 200px;
+  }
 
-      .disapear-appear1{
-        display: none;
-    }
+  .disapear-appear1 {
+    display: none;
+  }
 
-    .disapear-appear2{
-        display: block;
-    }
-
+  .disapear-appear2 {
+    display: block;
+  }
 }
 
 @media (max-width: 1350px) {
+  .section-websites {
+    padding: 100px 200px;
+  }
 
-    .section-websites {
-        padding: 100px 200px;
-    }
-
-    .Hobbys{
-        padding: 40px 100px;
-    }
+  .Hobbys {
+    padding: 40px 100px;
+  }
 }
 
 @media (max-width: 1200px) {
-
-    .Projects {
-        padding: 50px 100px;
-    }
+  .Projects {
+    padding: 50px 100px;
+  }
 }
 
 @media (max-width: 1100px) {
-
-.image-container {
+  .image-container {
     height: 500px;
+  }
 }
-}
-
-
 
 @media (max-width: 1000px) {
-    .section-websites {
-        padding: 80px 100px;
-    }
+  .section-websites {
+    padding: 80px 100px;
+  }
 
-    .website-grid {
-        gap: 100px;
-        }
-    }
+  .website-grid {
+    gap: 100px;
+  }
+}
 
-    @media (max-width: 800px) {
-        .Hobbys{
-            padding: 40px 70px;
-        }
-    }
+@media (max-width: 800px) {
+  .Hobbys {
+    padding: 40px 70px;
+  }
+}
 
-    @media (max-width: 800px) {
-        .website-grid {
-            gap: 50px;
-        }
+@media (max-width: 800px) {
+  .website-grid {
+    gap: 50px;
+  }
 
-        .Projects {
-            padding: 50px 50px;
-        }
+  .Projects {
+    padding: 50px 50px;
+  }
+}
 
-    }
-
-
-        
 @media (max-width: 700px) {
+  .Projects {
+    padding: 50px 70px;
+  }
 
-    .Projects {
-        padding: 50px 70px;
-    }
+  .Projects-Grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .tag {
+    font-size: 13px;
+  }
 
-    .Projects-Grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .tag {
-        font-size: 13px;
-    }
+  .website-title {
+    font-size: 30px;
+  }
 
-    .website-title {
-        font-size: 30px;
+  .section-websites {
+    padding: 20px 60px;
+  }
 
-    }
+  .nav-container .logo {
+    font-size: 20px;
+    z-index: 2;
+  }
 
-    .section-websites {
-        padding: 20px 60px;
-    }
+  .home canvas {
+    height: 50%;
+  }
 
-    .nav-container .logo {
-        font-size: 20px;
-        z-index: 2;   
-    }
+  .hamburger-menu,
+  .material-symbols-outlined {
+    font-size: 20px;
+  }
 
-    .home canvas {
-        height: 50%;
-    }
+  .nav-ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .hamburger-menu, .material-symbols-outlined {
-        font-size: 20px;
-    }
+  .hamburger-menu {
+    display: block;
+    z-index: 2;
+  }
 
-    .nav-ul {
-        flex-direction: column;
-        gap: 10px;
-    }
+  .header {
+    color: #020711;
+    position: fixed; /* Changed from relative to fixed */
+    top: 0; /* Ensure it sticks to the top */
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+  }
 
-    .hamburger-menu {
-        display: block;
-        z-index: 2;
-    }
+  .nav {
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    bottom: 0;
+    width: 100%;
+    padding-top: 6rem;
+    align-items: center;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    padding-bottom: 1000px;
+  }
 
-    .header {
-        color: #020711;
-        position: fixed; /* Changed from relative to fixed */
-        top: 0; /* Ensure it sticks to the top */
-        width: 100%; /* Ensure it spans the full width */
-        z-index: 1000; /* Ensure it stays on top of other content */
-    }
+  .nav.active {
+    right: 0;
+  }
 
-    .nav {
-        flex-direction: column;
-        gap: 2rem;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        bottom: 0;
-        width: 100%;
-        padding-top: 6rem;
-        align-items: center;
-        text-align: center;
-        transition: 0.15s ease-in-out;
-        padding-bottom: 1000px;
-    }
+  .nav.active a {
+    border-style: none none solid none;
+    border-width: thin;
+  }
 
-    .nav.active {
-        right: 0;
-    }
-
-    .nav.active a {
-        border-style: none none solid none;
-        border-width: thin;
-    }
-
-    .Hobbys{
-        padding: 40px 20px;
-    }
-    }
+  .Hobbys {
+    padding: 40px 20px;
+  }
+}
 
 @media (max-width: 600px) {
-    .home h1 {
-        font-size: 48px;
-    }
-    .section-websites {
-        padding: 10px 20px;
-      }
+  .home h1 {
+    font-size: 48px;
+  }
+  .section-websites {
+    padding: 10px 20px;
+  }
 
-      .Projects-Text {
-        padding-top: 20px;
-      }
+  .Projects-Text {
+    padding-top: 20px;
+  }
 
-      .image-container {
-        height: 400px;
-    }
-
+  .image-container {
+    height: 400px;
+  }
 }
 
 @media (max-width: 500px) {
-    .Projects {
-        padding: 50px 20px;
-    }
+  .Projects {
+    padding: 50px 20px;
+  }
 }
 
 @media (max-width: 420px) {
-    .home h1 {
-        font-size: 36px;
-    }
+  .home h1 {
+    font-size: 36px;
+  }
 }
