@@ -3,7 +3,7 @@
 
 body {
   animation: slide 50s linear infinite alternate;
-  background-image: url("https://img.freepik.com/premium-vector/camomile-blue-background-pattern-cute-seamless-print-naive-style-children-s-textiles-wallpapers-postcards-vector-illustration-hand-drawn-doodle_501610-191.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/043/032/047/small_2x/watercolor-seamless-floral-pattern-illustration-horizontally-and-vertically-repeatable-free-vector.jpg");
   background-repeat: repeat;
 }
 
@@ -13,9 +13,7 @@ body {
   }
 }
 
-body,
-html,
-.home {
+body, html, .home {
   margin: 0;
   width: 100%;
   height: 100%;
@@ -26,7 +24,7 @@ html,
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "PT Serif";
+  font-family: 'PT Serif';
   letter-spacing: 1.2px;
   line-height: 1.5;
   font-weight: 700;
@@ -37,9 +35,9 @@ header {
   /* background: #ffffff; */
   color: black;
   padding: 20px 0;
-  position: fixed;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed; 
+  width: 100%; 
+  background-color: rgba(255, 255, 255, 0.90);
   backdrop-filter: blur(10px);
 }
 
@@ -52,15 +50,15 @@ header {
 }
 
 .nav-container .logo {
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 2rem; 
+  font-weight: bold;  
 }
 
 .nav {
   display: flex;
 }
 
-.nav-link a {
+.nav-link a{
   text-decoration: none;
   color: #020711;
 }
@@ -70,8 +68,7 @@ header {
   list-style: none;
 }
 
-.nav-container,
-.nav-ul {
+.nav-container, .nav-ul {
   display: flex;
   gap: 1.6rem;
   font-size: 1.2rem;
@@ -84,15 +81,14 @@ header {
 
 .nav-container .logo {
   font-size: 20px;
-  z-index: 2;
+  z-index: 2;   
 }
 
 .home canvas {
   height: 50%;
 }
 
-.hamburger-menu,
-.material-symbols-outlined {
+.hamburger-menu, .material-symbols-outlined {
   font-size: 20px;
 }
 
@@ -134,8 +130,36 @@ header {
   right: 0;
 }
 
-.nav.active a {
+.nav.active a{
   color: #020711;
   border-style: none none solid none;
   border-width: thin;
+
+}
+
+/*Blender*/
+.Blender{
+  padding: 100px 100px;
+}
+
+.Blender-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.blender-img{
+  height: 100%;
+  width: 100%;
+  transition: all .4s;
+  border-radius: 5%;
+}
+
+.blender-img:hover{
+  transform: translateY(-6px);
+  box-shadow: #020711;
+}
+
+.Blender-text{
+  padding-top: 30px;
 }
