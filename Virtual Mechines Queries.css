@@ -1,5 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
+
+
+@media (max-width: 1300px) {
+  .Virtual-grid{
+      grid: none;
+  }
+}
+
 @media (max-width: 700px) {
   .nav-container .logo {
     font-size: 20px;
@@ -56,4 +64,19 @@
     border-style: none none solid none;
     border-width: thin;
   }
+
+  .Virtual{
+    padding: 100px 50px;
+  }
+
+  .Virtual-text1{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+
+.Virtual-text1{
+font-size: 15px;
+}
 }

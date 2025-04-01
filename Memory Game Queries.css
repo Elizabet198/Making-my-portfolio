@@ -56,4 +56,19 @@
     border-style: none none solid none;
     border-width: thin;
   }
+
+  .Memory{
+    padding: 100px 30px;
+  }
+
+  .Memory-text1{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+
+.Memory-text1{
+font-size: 15px;
+}
 }

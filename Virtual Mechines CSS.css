@@ -141,28 +141,33 @@ header {
 }
 
 /*Blender*/
-.Blender {
+.Virtual {
   padding: 100px 100px;
 }
 
-.Blender-grid {
+.Virtual-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  padding-bottom: 20px;
 }
 
-.blender-img {
+.Virtual-img {
   height: 100%;
   width: 100%;
   transition: all 0.4s;
   border-radius: 5%;
 }
 
-.blender-img:hover {
+.Virtual-img:hover {
   transform: translateY(-6px);
   box-shadow: #020711;
 }
 
-.Blender-text {
-  padding-top: 30px;
+.Virtual-text {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2%;
 }
