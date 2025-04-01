@@ -65,6 +65,17 @@
   }
 
   .Blender {
-    padding: 50px 50px;
+    padding: 100px 50px;
+  }
+
+  .Blender-text1{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .Blender-text1{
+    font-size: 15px;
   }
 }

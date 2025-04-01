@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media (max-width: 1000px) {
-  .Blender-grid {
-    grid: none;
+@media (max-width: 1300px) {
+  .LiveOS-grid{
+      grid: none;
   }
 }
 
@@ -64,7 +64,7 @@
     border-width: thin;
   }
 
-  .Blender {
-    padding: 50px 50px;
+  .LiveOS {
+    padding: 100px 50px;
   }
 }

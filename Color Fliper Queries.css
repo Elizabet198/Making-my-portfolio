@@ -1,6 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media (max-width: 1100px) {
+
+  .Color{
+    padding: 50px 50px;
+  }
+}
+
 @media (max-width: 700px) {
   .nav-container .logo {
     font-size: 20px;
@@ -57,4 +64,6 @@
     border-style: none none solid none;
     border-width: thin;
   }
+
+
 }

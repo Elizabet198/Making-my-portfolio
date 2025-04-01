@@ -149,6 +149,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .DHCP-img {
@@ -164,5 +165,9 @@ header {
 }
 
 .DHCP-text {
-  padding-top: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2%;
 }
