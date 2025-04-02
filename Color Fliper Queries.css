@@ -65,5 +65,18 @@
     border-width: thin;
   }
 
+  .Color{
+    padding: 100px 30px;
+  }
 
+  .Color-text1{
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+
+.Color-text1{
+font-size: 15px;
+}
 }

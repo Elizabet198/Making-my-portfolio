@@ -56,4 +56,17 @@
     border-style: none none solid none;
     border-width: thin;
   }
+  .Space {
+    padding: 100px 50px;
+  }
+
+  .Space-text1 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Space-text1 {
+    font-size: 15px;
+  }
 }

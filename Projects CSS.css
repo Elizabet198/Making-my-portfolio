@@ -202,9 +202,8 @@ header {
   text-shadow: 0 0 5px #fefefe;
   font-weight: 900;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 26px;
-  padding-top: 20px;
 }
 
 .image-of-projects {
@@ -222,4 +221,8 @@ header {
 .image-of-projects:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.17);
+}
+
+.image-container{
+  padding-bottom: 50px;
 }

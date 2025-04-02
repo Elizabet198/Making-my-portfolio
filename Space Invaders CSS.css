@@ -138,28 +138,36 @@ header {
 }
 
 /*Blender*/
-.Blender{
+.Space{
   padding: 100px 100px;
 }
 
-.Blender-grid{
+.Space-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.blender-img{
+.Space-img{
   height: 100%;
   width: 100%;
   transition: all .4s;
   border-radius: 5%;
 }
 
-.blender-img:hover{
+.Space-img:hover{
   transform: translateY(-6px);
   box-shadow: #020711;
 }
 
-.Blender-text{
-  padding-top: 30px;
+.Space-text{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2%;
+}
+
+.Space-video{
+  padding-bottom: 20px;
 }

@@ -138,28 +138,36 @@ header {
 }
 
 /*Blender*/
-.Blender{
+.Counter{
   padding: 100px 100px;
 }
 
-.Blender-grid{
+.Counter-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.blender-img{
+.Counter-img{
   height: 100%;
   width: 100%;
   transition: all .4s;
   border-radius: 5%;
 }
 
-.blender-img:hover{
+.Counter-img:hover{
   transform: translateY(-6px);
   box-shadow: #020711;
 }
 
-.Blender-text{
-  padding-top: 30px;
+.Counter-text{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2%;
+}
+
+.Counter-video{
+  padding-bottom: 20px;
 }
