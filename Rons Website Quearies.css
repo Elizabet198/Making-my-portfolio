@@ -1,12 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media (max-width: 1000px) {
-  .Blender-grid {
-    grid: none;
-  }
-}
-
 @media (max-width: 700px) {
   .nav-container .logo {
     font-size: 20px;
@@ -64,18 +58,18 @@
     border-width: thin;
   }
 
-  .Blender {
+  .Rons {
     padding: 100px 50px;
   }
 
-  .Blender-text1{
+  .Rons-text1{
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
 
-  .Blender-text1{
+  .Rons-text1{
     font-size: 15px;
   }
 }

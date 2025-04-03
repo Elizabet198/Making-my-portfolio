@@ -138,34 +138,46 @@ header {
 }
 
 /*Blender*/
-.Blender{
+.Rons{
   padding: 100px 100px;
 }
 
-.Blender-grid{
+.Rons-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding-bottom: 20px;
 }
 
-.blender-img{
+.Rons-img{
   height: 100%;
   width: 100%;
   transition: all .4s;
   border-radius: 5%;
 }
 
-.blender-img:hover{
+.Rons-img:hover{
   transform: translateY(-6px);
   box-shadow: #020711;
 }
 
-.Blender-text{
+.Rons-text{
   padding: 30px;
   display: flex;
   justify-content: center;
   background-color: #fff;
   border-radius: 2%;
+}
+
+.Rons-video{
+  padding-bottom: 20px;
+}
+
+.Rons-link{
+  color: #020711;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
 }
 
