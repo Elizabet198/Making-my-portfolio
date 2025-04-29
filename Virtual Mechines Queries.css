@@ -1,10 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @media (max-width: 1300px) {
-  .Virtual-grid{
-      grid: none;
+  .Virtual-grid {
+    grid: none;
   }
 }
 
@@ -65,18 +64,21 @@
     border-width: thin;
   }
 
-  .Virtual{
+  .Virtual {
     padding: 100px 50px;
   }
 
-  .Virtual-text1{
+  .Virtual-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
+  .Virtual-text1 {
+    font-size: 15px;
+  }
 
-.Virtual-text1{
-font-size: 15px;
-}
+  .Virtual {
+    padding: 100px 20px;
+  }
 }

@@ -62,14 +62,17 @@
     padding: 100px 50px;
   }
 
-  .Rons-text1{
+  .Rons-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
-
-  .Rons-text1{
+  .Rons-text1 {
     font-size: 15px;
+  }
+
+  .Rons {
+    padding: 100px 10px;
   }
 }

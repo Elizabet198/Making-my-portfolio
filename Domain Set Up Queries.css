@@ -2,8 +2,8 @@
 /* CSS Document */
 
 @media (max-width: 1300px) {
-  .Domain-grid{
-      grid: none;
+  .Domain-grid {
+    grid: none;
   }
 }
 
@@ -68,14 +68,17 @@
     padding: 100px 50px;
   }
 
-  .Domain-text1{
+  .Domain-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
+  .Domain-text1 {
+    font-size: 15px;
+  }
 
-.Domain-text1{
-font-size: 15px;
-}
+  .Domain {
+    padding: 100px 20px;
+  }
 }

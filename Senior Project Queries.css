@@ -1,19 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @media (max-width: 1300px) {
-  .Virtual-grid{
-      grid: none;
-  }
 }
 
 @media (max-width: 1000px) {
-    .SeniorProject-grid {
-      grid: none;
-    }
+  .SeniorProject-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 
+  .senior-img {
+    width: 100%;
+  }
+}
 @media (max-width: 700px) {
   .nav-container .logo {
     font-size: 20px;
@@ -81,8 +82,11 @@
 }
 
 @media (max-width: 500px) {
-
-.SeniorProject-text1 {
+  .SeniorProject-text1 {
     font-size: 15px;
-    }
+  }
+
+  .SeniorProject {
+    padding: 100px 20px;
+  }
 }

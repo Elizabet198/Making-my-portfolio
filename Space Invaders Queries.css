@@ -69,4 +69,8 @@
   .Space-text1 {
     font-size: 15px;
   }
+
+  .Space {
+    padding: 100px 10px;
+  }
 }

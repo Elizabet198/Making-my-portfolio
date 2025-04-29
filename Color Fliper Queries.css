@@ -2,8 +2,7 @@
 /* CSS Document */
 
 @media (max-width: 1100px) {
-
-  .Color{
+  .Color {
     padding: 50px 50px;
   }
 }
@@ -65,18 +64,21 @@
     border-width: thin;
   }
 
-  .Color{
+  .Color {
     padding: 100px 30px;
   }
 
-  .Color-text1{
+  .Color-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
+  .Color-text1 {
+    font-size: 15px;
+  }
 
-.Color-text1{
-font-size: 15px;
-}
+  .Color {
+    padding: 100px 10px;
+  }
 }

@@ -2,8 +2,8 @@
 /* CSS Document */
 
 @media (max-width: 1300px) {
-  .LiveOS-grid{
-      grid: none;
+  .LiveOS-grid {
+    grid: none;
   }
 }
 
@@ -64,18 +64,21 @@
     border-width: thin;
   }
 
-  .LiveOS{
+  .LiveOS {
     padding: 100px 50px;
   }
 
-  .LiveOS-text1{
+  .LiveOS-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
+  .LiveOS-text1 {
+    font-size: 15px;
+  }
 
-.LiveOS-text1{
-font-size: 15px;
-}
+  .LiveOS {
+    padding: 100px 20px;
+  }
 }

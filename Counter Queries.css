@@ -57,19 +57,22 @@
     border-style: none none solid none;
     border-width: thin;
   }
-  
-  .Counter{
+
+  .Counter {
     padding: 100px 30px;
   }
 
-  .Counter-text1{
+  .Counter-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
+  .Counter-text1 {
+    font-size: 15px;
+  }
 
-.Counter-text1{
-font-size: 15px;
-}
+  .Counter {
+    padding: 100px 10px;
+  }
 }

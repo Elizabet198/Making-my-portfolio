@@ -141,51 +141,51 @@ header {
 }
 
 /*Blender*/
-    .SeniorProject {
-    padding: 100px 100px;
-  }
-  
-  .SeniorProject-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .senior-img {
-    height: 100%;
-    width: 100%;
-    transition: all 0.4s;
-    border-radius: 5%;
-  }
-
-  .SeniorProjects-Header {
-    color: #020711;
-    text-shadow: 0 0 5px #fefefe;
-    font-weight: 900;
-    text-align: center;
-    padding: 20px 0px 20px 0px;
-    font-size: 30px;
+.SeniorProject {
+  padding: 100px 100px;
 }
 
-  .senior-img:hover {
-    transform: translateY(-6px);
-    box-shadow: #020711;
-  }
-  
-  .SeniorProject-text {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 2%;
-  }
-  
-  .SeniorProject-text1 {
-    font-size: 18px;
-  }
+.SeniorProject-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 20px;
+}
 
-  .Car-video{
-    padding-bottom: 20px;
-    text-align: center;
+.senior-img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  border-radius: 5%;
+}
+
+.SeniorProjects-Header {
+  color: #020711;
+  text-shadow: 0 0 5px #fefefe;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  font-size: 30px;
+}
+
+.senior-img:hover {
+  transform: translateY(-6px);
+  box-shadow: #020711;
+}
+
+.SeniorProject-text {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2%;
+}
+
+.SeniorProject-text1 {
+  font-size: 18px;
+}
+
+.Car-video {
+  padding-bottom: 20px;
+  text-align: center;
 }
