@@ -139,3 +139,38 @@ header {
   border-style: none none solid none;
   border-width: thin;
 }
+
+
+  /*Blender*/
+  .PhotoShop{
+    padding: 100px 100px;
+  }
+  
+  .PhotoShop-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .PhotoShop-img{
+    height: 100%;
+    width: 100%;
+    transition: all .4s;
+    border-radius: 5%;
+  }
+
+  .PhotoShop-img:hover{
+    transform: translateY(-6px);
+    box-shadow: #020711;
+  }
+
+  .PhotoShop-text{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 2%;
+  }
+
+  

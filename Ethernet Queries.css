@@ -2,7 +2,7 @@
 /* CSS Document */
 
 @media (max-width: 1000px) {
-  .PhotoShop-grid {
+  .Ethernet-grid {
     grid: none;
   }
 }
@@ -64,20 +64,20 @@
     border-width: thin;
   }
 
-  .PhotoShop {
+  .Ethernet {
     padding: 100px 50px;
   }
 
-  .PhotoShop-text1 {
+  .Ethernet-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
-  .PhotoShop-text1 {
+  .Ethernet-text1 {
     font-size: 15px;
   }
-  .PhotoShop {
+  .Ethernet {
     padding: 100px 20px;
   }
 }
