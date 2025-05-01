@@ -3,7 +3,7 @@
 
 body {
   animation: slide 50s linear infinite alternate;
-  background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png");
+  background-image: url("https://freedesignfile.com/upload/2016/05/Pink-flower-pattern-seamless-vector.jpg");
   background-repeat: repeat;
 }
 
@@ -141,33 +141,45 @@ header {
 }
 
 /*Blender*/
-.Blender {
+.First {
   padding: 100px 100px;
 }
 
-.Blender-grid {
+.First-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding-bottom: 20px;
 }
 
-.Blender-img {
+.First-img {
   height: 100%;
   width: 100%;
   transition: all 0.4s;
   border-radius: 5%;
 }
 
-.Blender-img:hover {
+.First-img:hover {
   transform: translateY(-6px);
   box-shadow: #020711;
 }
 
-.Blender-text {
+.First-text {
   padding: 30px;
   display: flex;
   justify-content: center;
   background-color: #fff;
   border-radius: 2%;
+}
+
+.First-video {
+  padding-bottom: 20px;
+}
+
+.First-link {
+  color: #020711;
+  display: grid;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
 }

@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 @media (max-width: 700px) {
   .nav-container .logo {
     font-size: 20px;
@@ -59,18 +58,21 @@
     border-width: thin;
   }
 
-  .Blender {
+  .First {
     padding: 100px 50px;
   }
 
-  .Blender-text1{
+  .First-text1 {
     font-size: 17px;
   }
 }
 
 @media (max-width: 500px) {
-
-  .Blender-text1{
+  .First-text1 {
     font-size: 15px;
+  }
+
+  .First {
+    padding: 100px 10px;
   }
 }
